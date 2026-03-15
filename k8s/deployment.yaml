@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: holidays-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: holidays-api
+  template:
+    metadata:
+      labels:
+        app: holidays-api
+    spec:
+      containers:
+      - name: holidays-api
+        image: holidays-api:1.0
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 5000

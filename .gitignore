@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.pyc
+Pulumi.*.yaml
+*.backup
+node_modules/
