@@ -6,8 +6,6 @@ This project implements a Python-based web service that retrieves Jewish holiday
 
 The application is containerized with Docker and deployed to Kubernetes using Infrastructure as Code with **Pulumi**.
 
-The project demonstrates a full DevOps workflow including containerization, Kubernetes deployment, ingress exposure, configuration management, and secret handling.
-
 ---
 
 ## Architecture
