@@ -52,7 +52,6 @@ holidays-project
 ├── infra/
 │ ├── main.py
 │ ├── Pulumi.yaml
-│ ├── Pulumi.dev.yaml
 │ └── requirements.txt
 │
 └── README.md
